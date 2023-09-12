@@ -9,5 +9,12 @@ public class masivq {
         nums[4] = 3;
         int res = nums[2] + nums[3];
         System.out.println(res);
+
+        float[] nums2 = new float[] {5.0f,6.45f,89.98f};
+        System.out.println(nums2[1]);
+
+        for(int i = 0; i < nums2.length; i++){
+            System.out.println( "element: " + nums2[i]);
+        }
     }
 }
