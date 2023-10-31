@@ -1,8 +1,8 @@
 public class Constructions {
     public static void main(String[] args) {
-        Human human1 = new Human();
-        human1.setName("Bob");
-        human1.setAge(40);
+//        Human man1 = new man1();
+//        man1.setName("Bob");
+//        man1.setAge(40);
     }
 }
 
