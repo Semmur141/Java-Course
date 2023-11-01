@@ -41,11 +41,11 @@ public class Tests {
         Scanner scan = new Scanner(System.in);
         System.out.println("Vvedite vremja: ");
         float time1 = scan.nextFloat();
-        if ( time1 <= 11.599 && time1 >= 6.00 ) {
+        if ( time1 < 12 && time1 >= 6 ) {
             System.out.println("Dobroe utro!");
-        }else if (time1 <= 18.00 && time1 >= 12.00 ){
+        }else if (time1 <= 18 && time1 >= 12 ){
             System.out.println("Dobrogo dnja!");
-        }else if (time1 <= 5.599 && time1 >=00.00 ){
+        }else if (time1 <= 6 && time1 >= 0 ){
             System.out.println("Dobroi no4i!");
         }else {
             System.out.println("Dobrogo ve4era!");
